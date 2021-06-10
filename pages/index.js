@@ -1,9 +1,13 @@
-import styles from '../styles/Home.module.css'
+import Main from "./main";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 export default function Home() {
-  return (
-    <div className='text-red-300'>
-     hello world
-    </div>
-  )
+    return (
+        <div>
+            <Navbar/>
+            <Main/>
+            <Footer/>
+        </div>
+    )
 }
