@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <div>
-                <p>{t('ЖЕНЩИНАМ')}</p>
+                <p>ЖЕНЩИНАМ</p>
                 <p>МУЖЧИНАМ</p>
             </div>
             <div></div>
