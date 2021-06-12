@@ -1,12 +1,11 @@
 import React from 'react';
-import {Ri24HoursLine} from "react-icons/ri";
 
 const Footer = ({icon, name, info}) => {
     return (
-        <div>
+        <div className="px-16 py-10">
             <div className="flex justify-center items-center py-2">{icon}</div>
-            <div>{name}</div>
-            <div>{info}</div>
+            <div className="text-center font-bold text-lg">{name}</div>
+            <div className="text-center text-gray-700">{info}</div>
         </div>
     );
 };
