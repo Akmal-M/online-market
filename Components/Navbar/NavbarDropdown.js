@@ -1,74 +1,118 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {BiSearch} from "react-icons/bi";
 import Link from 'next/link'
-import Discount from "./Discount";
-import NewInNav from "./NewInNav";
+import One from "./One";
+import Two from "./Two";
+import Three from "./Three";
+import Four from "./Four";
+import Five from "./Five";
 
 
 const NavbarDropdown = () => {
+   
+    const [dropdown, setDropdown] =  useState('')
+
+    console.log(dropdown)
     return (
-        <div className='flex justify-between px-20 items-center py-3'>
-            <div className='flex items-center relative'>
-                <div className='mx-3 w-full h-auto dropdown inline-block relative'>
-                    <div className="flex items-center cursor-pointer">
-                        <Link href='/'>
-                            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
-                        </Link>
-                    </div>
-                    <div className="dropdown-content absolute hidden bg-red-500 text-gray-800 left-0 ">
-                        <NewInNav/>
-                    </div>
+        <div className='flex justify-between  items-center py-3 inline-block relative'>
+            <div className='flex items-center px-20 dropdown '>
+                <div className="flex items-center cursor-pointer " onMouseOver={() => setDropdown('one')}>
+                    <Link href='/' >
+                        <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
+                    </Link>
                 </div>
-                <div className='mx-3 dropdown inline-block relative'>
-                    <div className="flex items-center cursor-pointer">
-                        <Link href='/'>
-                            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
-                        </Link>
-                    </div>
-                    <div className="dropdown-content absolute hidden bg-white text-gray-800">
-                        <NewInNav/>
-                    </div>
+                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('two')}>
+                    <Link href='/' >
+                        <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
+                    </Link>
                 </div>
-                <div className='mx-3 dropdown inline-block relative'>
-                    <div className="flex items-center cursor-pointer">
-                        <Link href='/'>
-                            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
-                        </Link>
-                    </div>
-                    <div className="dropdown-content absolute hidden bg-white text-gray-800">
-                        <NewInNav/>
-                    </div>
+                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('three')}>
+                    <Link href='/' >
+                        <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
+                    </Link>
                 </div>
-                <div className='mx-3 dropdown inline-block relative'>
-                    <div className="flex items-center cursor-pointer">
-                        <Link href='/'>
-                            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
-                        </Link>
-                    </div>
-                    <div className="dropdown-content absolute hidden bg-white text-gray-800">
-                        <NewInNav/>
-                    </div>
+                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('four')}>
+                    <Link href='/' >
+                        <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
+                    </Link>
                 </div>
-                <div className='mx-3 dropdown inline-block relative'>
-                    <div className="flex items-center cursor-pointer">
-                        <Link href='/'>
-                            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
-                        </Link>
-                    </div>
-                    <div className="dropdown-content absolute hidden bg-white text-gray-800">
-                        <NewInNav/>
-                    </div>
+                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('five')}>
+                    <Link href='/' >
+                        <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
+                    </Link>
                 </div>
-                <div className='mx-3 dropdown inline-block relative'>
-                    <div className="flex items-center cursor-pointer">
-                        <Link href='/'>
-                            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>
-                        </Link>
-                    </div>
-                    <div className="dropdown-content absolute hidden bg-white text-gray-800">
-                        <NewInNav/>
-                    </div>
+
+                <div className="dropdown-content absolute top-14 hidden bg-red-500 text-gray-800 left-0 w-full ">
+                    {
+                        dropdown === 'one' ? <One/>  :
+                        dropdown === 'two' ? <Two/>  :
+                        dropdown === 'three' ? <Three/>  :
+                        dropdown === 'four' ? <Four/>  :
+                        dropdown === 'five' && <Five/>
+                    }
+
                 </div>
+
+
+                      {/*                          GAVNOKOD  PASTDAGI                         */}
+
+
+                {/*<div className='pl-20 pr-3  h-auto dropdown  '>*/}
+
+                {/*    <div className="dropdown-content absolute hidden bg-red-500 text-gray-800 left-0 ">*/}
+                {/*        <One/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*<div className='px-3 dropdown inline-block '>*/}
+                {/*    <div className="flex items-center cursor-pointer">*/}
+                {/*        <Link href='/'>*/}
+                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800 w-screen">*/}
+                {/*        <One/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*<div className='px-3 dropdown inline-block '>*/}
+                {/*    <div className="flex items-center cursor-pointer">*/}
+                {/*        <Link href='/'>*/}
+                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
+                {/*        <One/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*<div className='px-3 dropdown inline-block '>*/}
+                {/*    <div className="flex items-center cursor-pointer">*/}
+                {/*        <Link href='/'>*/}
+                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
+                {/*        <One/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*<div className='px-3 dropdown inline-block '>*/}
+                {/*    <div className="flex items-center cursor-pointer">*/}
+                {/*        <Link href='/'>*/}
+                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
+                {/*        <One/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*<div className='px-3 dropdown inline-block '>*/}
+                {/*    <div className="flex items-center cursor-pointer">*/}
+                {/*        <Link href='/'>*/}
+                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
+                {/*        <One/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
 
             </div>
