@@ -4,12 +4,12 @@ import BodyCards from "./BodyCards";
 const BodyCard = () => {
     return (
         <div>
-            <p className="text-2xl">Рекомендуем для вас</p>
+            <p className="text-2xl font-bold flex justify-center">Рекомендуем для вас</p>
             <div className="flex">
-
             </div>
-            <BodyCards/>
+
         </div>
+
     );
 };
 
