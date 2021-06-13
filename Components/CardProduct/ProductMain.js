@@ -1,41 +1,43 @@
 import React from 'react';
-import {HiShoppingBag} from "react-icons/hi";
-import Product from "./Product";
+import ProductCard from "./ProductCard";
 
-const ProductInfo = () => {
+const ProductMain = () => {
     return (
-        <div>
-            <Product
+    <div>
+        <p className="text-2xl items-center flex justify-center font-bold mt-6">Рекомендуем для вас</p>
+
+        <div className='grid lg:grid-cols-4 grid-cols-2'>
+            <ProductCard
                 img={<img
                     src="https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/07/78/491af027-ee89-4305-8208-2f4e560cbe42.jpg.webp?s=240x320"
                     alt=""/>}
                 info={'Рубашки с однотонным принтом и ул'}
                 price={'US$21.99'}/>
-            <Product
+            <ProductCard
                 img={<img
                     src="https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/07/78/491af027-ee89-4305-8208-2f4e560cbe42.jpg.webp?s=240x320"
                     alt=""/>}
                 info={'Рубашки с однотонным принтом и ул'}
                 price={'US$21.99'}/>
-            <Product
+            <ProductCard
                 img={<img
                     src="https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/07/78/491af027-ee89-4305-8208-2f4e560cbe42.jpg.webp?s=240x320"
                     alt=""/>}
                 info={'Рубашки с однотонным принтом и ул'}
                 price={'US$21.99'}/>
-            <Product
+            <ProductCard
                 img={<img
                     src="https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/07/78/491af027-ee89-4305-8208-2f4e560cbe42.jpg.webp?s=240x320"
                     alt=""/>}
                 info={'Рубашки с однотонным принтом и ул'}
                 price={'US$21.99'}/>
-            <Product
+            <ProductCard
                 img={<img
                     src="https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/07/78/491af027-ee89-4305-8208-2f4e560cbe42.jpg.webp?s=240x320"
                     alt=""/>}
                 info={'Рубашки с однотонным принтом и ул'}
                 price={'US$21.99'}/>
-            <Product
+            <ProductCard
                 img={<img
                     src="https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/07/78/491af027-ee89-4305-8208-2f4e560cbe42.jpg.webp?s=240x320"
                     alt=""/>}
@@ -44,7 +46,8 @@ const ProductInfo = () => {
 
 
         </div>
+    </div>
     );
 };
 
-export default ProductInfo;
+export default ProductMain;
