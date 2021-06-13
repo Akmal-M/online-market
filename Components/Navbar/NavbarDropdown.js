@@ -54,65 +54,6 @@ const NavbarDropdown = () => {
                 </div>
 
 
-                      {/*                          GAVNOKOD  PASTDAGI                         */}
-
-
-                {/*<div className='pl-20 pr-3  h-auto dropdown  '>*/}
-
-                {/*    <div className="dropdown-content absolute hidden bg-red-500 text-gray-800 left-0 ">*/}
-                {/*        <One/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className='px-3 dropdown inline-block '>*/}
-                {/*    <div className="flex items-center cursor-pointer">*/}
-                {/*        <Link href='/'>*/}
-                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
-                {/*        </Link>*/}
-                {/*    </div>*/}
-                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800 w-screen">*/}
-                {/*        <One/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className='px-3 dropdown inline-block '>*/}
-                {/*    <div className="flex items-center cursor-pointer">*/}
-                {/*        <Link href='/'>*/}
-                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
-                {/*        </Link>*/}
-                {/*    </div>*/}
-                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
-                {/*        <One/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className='px-3 dropdown inline-block '>*/}
-                {/*    <div className="flex items-center cursor-pointer">*/}
-                {/*        <Link href='/'>*/}
-                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
-                {/*        </Link>*/}
-                {/*    </div>*/}
-                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
-                {/*        <One/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className='px-3 dropdown inline-block '>*/}
-                {/*    <div className="flex items-center cursor-pointer">*/}
-                {/*        <Link href='/'>*/}
-                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
-                {/*        </Link>*/}
-                {/*    </div>*/}
-                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
-                {/*        <One/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className='px-3 dropdown inline-block '>*/}
-                {/*    <div className="flex items-center cursor-pointer">*/}
-                {/*        <Link href='/'>*/}
-                {/*            <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>*/}
-                {/*        </Link>*/}
-                {/*    </div>*/}
-                {/*    <div className="dropdown-content absolute hidden bg-white text-gray-800">*/}
-                {/*        <One/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
 
 
             </div>
