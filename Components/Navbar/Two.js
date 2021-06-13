@@ -4,88 +4,104 @@ const Two = () => {
     return (
 
 
-
-        //NIMA BU???
-
-        // <div className="">
-        //     <div className="">
+        <div className="flex bg-white justify-center mt-6 container mx-auto py-5">
 
 
+            <div className="px-5 ">
+                <p className="font-bold">
+                    Последняя Мода
+                </p>
+                <div className="text-sm text-gray-500">
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Весенний Элемент
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Пейзажный Принц
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Фантазия Космоса
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Винтажный Цветок
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Тропические Тенденции
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Пэчворк
 
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Стильная Полоса
 
-
-
-                <div className="flex bg-yellow-100">
-                    <div className="px-5 ">
-                        <p className="font-bold">ИНФОРМАЦИЯ О КОМПАНИИ</p>
-                        <div className="text-sm text-gray-500">
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
-                                О NewMarket
-                            </p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
-                                политика конфиденциальности
-                            </p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
-                                Политика возврата
-                            </p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
-                                Условия и положения
-                            </p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
-                                Интеллектуальная собственность
-                            </p>
-                        </div>
-                    </div>
-                    <div className="px-5">
-                        <p className="font-bold">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</p>
-                        <div className="text-sm text-gray-500">
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Отследить
-                                заказ</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Доставка
-                                FAQ</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Заказать
-                                Часто задаваемые
-                                вопросы</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Методы
-                                доставки</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Способы
-                                оплаты</p>
-                        </div>
-                    </div>
-                    <div className="px-5">
-                        <p className="font-bold">ИНФОРМАЦИЯ О КОМПАНИИ</p>
-                        <div className="text-sm text-gray-500 ">
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">О
-                                Newchic</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">политика
-                                конфиденциальности</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Политика
-                                возврата</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Условия
-                                и положения</p>
-                            <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">Интеллектуальная
-                                собственность</p>
-                        </div>
-                    </div>
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Элемент Решетки
+                    </p>
                 </div>
+            </div>
+            <div className="px-5">
+                <p className="font-bold">Что Горячо?</p>
+                <div className="text-sm text-gray-500">
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Толстовки С Набивкой
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Дизайнерские Рубашки
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Качественные Кардиганы
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Тёплые Пальто
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Мягкий Вельветик
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Графические Футболки
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Удобные Сапоги
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Домашняя Одежда
+                    </p>
+                </div>
+            </div>
+            <div className="px-5">
+                <p className="font-bold">
+                    По Стилю
+                </p>
+                <div className="text-sm text-gray-500 ">
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Повседневный
 
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1"> Стиль Колледжа
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Свободный
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Уличная Одежда
 
-
-
-
-
-
-
-
-            // {/*    OLIB TASHLACHI ISHLAMASMIKAN  */}
-
-        //     </div>
-        // </div>
-
-
-
-
-
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Кожа
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Тай-Краситель
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Спортивная Одежда
+                    </p>
+                    <p className="hover:border-red-500 border-b border-transparent cursor-pointer py-1">
+                        Пляжная Одежда
+                    </p>
+                </div>
+            </div>
+        </div>
     );
 };
 
