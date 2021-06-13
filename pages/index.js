@@ -1,14 +1,13 @@
 import Main from "./main";
 import Footer from "../Components/Footer/Footer";
-import MidNav from "../Components/Navbar/MidNav";
 import Navbar from "../Components/Navbar/Navbar";
-import Product from "../Components/CardProduct/Product";
+import ProductMain from "../Components/CardProduct/ProductMain";
 
 export default function Home() {
     return (
         <div>
             <Navbar/>
-            <Product/>
+            <ProductMain/>
             <Main/>
             <Footer/>
         </div>
