@@ -2,20 +2,8 @@ import React from 'react';
 
 const Five = () => {
     return (
-
-
-
-        //NIMA BU???
-
-        // <div className="">
-        //     <div className="">
-
-
-
-
-
-
                 <div className="flex bg-gray-200">
+
                     <div className="px-5 ">
                         <p className="font-bold">ИНФОРМАЦИЯ О КОМПАНИИ</p>
                         <div className="text-sm text-gray-500">
@@ -68,24 +56,6 @@ const Five = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-            // {/*    OLIB TASHLACHI ISHLAMASMIKAN  */}
-
-        //     </div>
-        // </div>
-
-
-
-
-
     );
 };
 

@@ -6,6 +6,8 @@ import Two from "./Two";
 import Three from "./Three";
 import Four from "./Four";
 import Five from "./Five";
+import Six from "./Six";
+import Seven from "./Seven";
 
 
 const NavbarDropdown = () => {
@@ -44,12 +46,12 @@ const NavbarDropdown = () => {
                             Аксессуары</a>
                     </Link>
                 </div>
-                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('five')}>
+                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('six')}>
                     <Link href='/'>
                         <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Дом И Сад</a>
                     </Link>
                 </div>
-                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('five')}>
+                <div className="flex px-5 items-center cursor-pointer" onMouseOver={() => setDropdown('seven')}>
                     <Link href='/'>
                         <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Акция</a>
                     </Link>
@@ -62,7 +64,9 @@ const NavbarDropdown = () => {
                             dropdown === 'two' ? <Two/> :
                                 dropdown === 'three' ? <Three/> :
                                     dropdown === 'four' ? <Four/> :
-                                        dropdown === 'five' && <Five/>
+                                        dropdown === 'five' ? <Five/> :
+                                            dropdown === 'six' ? <Six/> :
+                                                dropdown === 'seven' && <Seven/>
                     }
 
                 </div>
