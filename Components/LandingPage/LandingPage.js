@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import NewComponent from "./NewComponent";
+import ShopByDeals from "./ShopByDeals";
 
 const LandingPage = () => {
     return (
@@ -8,8 +9,8 @@ const LandingPage = () => {
             <Link href='/about'>
                 <a>
                     <img className="w-full"
-                        src="https://imgaz1.chiccdn.com/nc/myos_newchic_affiliate_activity/202106/20210605005214_540.jpg"
-                        alt=""/>
+                         src="https://imgaz1.chiccdn.com/nc/myos_newchic_affiliate_activity/202106/20210605005214_540.jpg"
+                         alt=""/>
                 </a>
             </Link>
             <Link href='./about'>
@@ -38,6 +39,9 @@ const LandingPage = () => {
             </Link>
             <div>
                 <NewComponent/>
+            </div>
+            <div>
+                <ShopByDeals/>
             </div>
         </div>
     );
