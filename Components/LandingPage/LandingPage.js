@@ -43,6 +43,7 @@ const LandingPage = () => {
             <div>
                 <ShopByDeals/>
             </div>
+
         </div>
     );
 };
