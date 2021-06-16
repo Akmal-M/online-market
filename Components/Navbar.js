@@ -1,6 +1,5 @@
 import React from 'react';
 import useTranslation from "next-translate/useTranslation";
-import Link from 'next/link'
 
 const Navbar = () => {
     const {t} = useTranslation();
