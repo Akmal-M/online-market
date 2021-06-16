@@ -46,6 +46,86 @@ const ProductMain = () => {
 
 
             </div>
+            <div className='gap-5 flex container mx-auto mt-3'>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-7.jpg"
+                        alt=""/>}
+                    info={'Полоса Повседневная Хлопок'}
+                    price={'US$17.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-8.jpg"
+                        alt=""/>}
+                    info={'Полосатый принт Белый Henley'}
+                    price={'US$19.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-9.jpg"
+                        alt=""/>}
+                    info={'Мужские свободные рубашки в'}
+                    price={'US$24.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-10.jpg"
+                        alt=""/>}
+                    info={'Рубашки Хенли в полоску'}
+                    price={'US$24.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-11.jpg"
+                        alt=""/>}
+                    info={'Рубашки с однотонным принтом'}
+                    price={'US$21.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-12.jpg"
+                        alt=""/>}
+                    info={'Рубашки с однотонным принтом '}
+                    price={'US$21.99'}/>
+
+
+            </div>
+            <div className='gap-5 flex container mx-auto mt-3'>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-13.jpg"
+                        alt=""/>}
+                    info={'Полоса Повседневная Хлопок'}
+                    price={'US$17.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-14.jpg"
+                        alt=""/>}
+                    info={'Полосатый принт Белый Henley'}
+                    price={'US$19.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-15.jpg"
+                        alt=""/>}
+                    info={'Мужские свободные рубашки в'}
+                    price={'US$24.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-16.jpg"
+                        alt=""/>}
+                    info={'Рубашки Хенли в полоску'}
+                    price={'US$24.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-17.jpg"
+                        alt=""/>}
+                    info={'Рубашки с однотонным принтом'}
+                    price={'US$21.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-18.jpg"
+                        alt=""/>}
+                    info={'Рубашки с однотонным принтом '}
+                    price={'US$21.99'}/>
+
+
+            </div>
         </div>
     );
 };
