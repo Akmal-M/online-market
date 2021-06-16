@@ -3,7 +3,7 @@ import Link from 'next/link'
 import NewComponent from "./NewComponent";
 import ShopByDeals from "./ShopByDeals";
 
-const LandingPage = () => {
+const LandingMen = () => {
     return (
         <div>
             <Link href='/erkak'>
@@ -53,4 +53,4 @@ const LandingPage = () => {
     );
 };
 
-export default LandingPage;
+export default LandingMen;

@@ -11,14 +11,14 @@ const MidNav = () => {
         <div className=' bg-gray-50 items-center h-20 flex justify-between px-20'>
             <div className='flex '>
                 <div className='mx-5'>
-                    <Link href='/mens'>
+                    <Link href='/women'>
                         <a>
                             <p className="hover:font-bold">{t('ЖЕНЩИНАМ')}</p>
                         </a>
                     </Link>
                 </div>
                 <div className='mx-5'>
-                    <Link href='/womens'>
+                    <Link href='/'>
                         <a>
                             <p>{t('МУЖЧИНАМ')}</p>
                         </a>
