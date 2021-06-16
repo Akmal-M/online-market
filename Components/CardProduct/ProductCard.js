@@ -4,7 +4,7 @@ import {BsFillLightningFill} from "react-icons/bs";
 const ProductCard = ({img, info, price}) => {
     return (
         <div>
-            <div>
+            <div className="mb-3">
                 <div className="card-header relative">{img}
                     <div
                         className="overflow delay-150 bottom-0 left-0 pt-44 pl-10 h-full w-full absolute hover:opacity-75 opacity-0">

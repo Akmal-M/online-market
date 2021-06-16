@@ -13,8 +13,8 @@ const LandingMen = () => {
             </Link>
             <Link href='/about'>
                 <a>
-                    <img className="w-full"
-                         src="https://imgaz1.chiccdn.com/nc/myos_newchic_affiliate_activity/202106/20210605005214_540.jpg"
+                    <img className=""
+                         src="/images/mens/haader.jpg"
                          alt=""/>
                 </a>
             </Link>
