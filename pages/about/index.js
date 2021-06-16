@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const About = () => {
-    return (
-        <div>
-            <p className="text-7xl text-center items-center py-20 text-gray-600">About</p>
-        </div>
-    );
-};
+class Index extends Component {
+    render() {
+        return (
+            <div>
+                hello world
+            </div>
+        );
+    }
+}
 
-export default About;
+export default Index;

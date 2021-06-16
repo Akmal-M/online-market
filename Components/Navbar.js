@@ -7,14 +7,19 @@ const Navbar = () => {
     return (
         <div>
             <div>
-
-                      <p>{t('ЖЕНЩИНАМ')}</p>
-
+                <Link href="/WomenLandingPage">
+                    <a>
+                        <p>Ayol</p>
+                    </a>
+                </Link>
+                <Link href="/">
+                    <a>
                         <p>{t('МУЖЧИНАМ')}</p>
+                    </a>
+                </Link>
 
 
             </div>
-
         </div>
     );
 };

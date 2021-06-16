@@ -6,6 +6,11 @@ import ShopByDeals from "./ShopByDeals";
 const LandingPage = () => {
     return (
         <div>
+            <Link href='/erkak'>
+                <a>
+                    <p>erkak</p>
+                </a>
+            </Link>
             <Link href='/about'>
                 <a>
                     <img className="w-full"

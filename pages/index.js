@@ -8,9 +8,9 @@ export default function Home() {
     return (
         <div>
             <Navbar/>
-            <LandingPage/>
-            <ProductMain/>
-            <Main/>
+            {/*<LandingPage/>*/}
+            {/*<ProductMain/>*/}
+            {/*<Main/>*/}
             <Footer/>
         </div>
     )
