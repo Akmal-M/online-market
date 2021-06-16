@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductMain from "../../Components/CardProduct/ProductMain";
+import ProductMain from "../../Components/CardProductWoman/ProductMain";
 import Main from "../main";
 import Footer from "../../Components/Footer/Footer";
 import LandingWomen from "../../Components/Women/LandingWomen";

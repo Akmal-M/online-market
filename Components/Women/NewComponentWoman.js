@@ -7,37 +7,55 @@ const NewComponentWoman = () => {
 
             <div className="flex justify-center items-center container mx-auto grid grid-cols-6 gap-5 px-8 mt-4 ">
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607035041_702.jpg.webp" alt=""/>
+                    <img src="/images/woman/shopby1.jpg" alt=""/>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607035050_112.jpg.webp" alt=""/>
+                    <img src="/images/woman/shopby2.jpg" alt=""/>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607035058_316.jpg.webp" alt=""/>
+                    <img src="/images/woman/shopby3.jpg" alt=""/>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607221412_299.jpg.webp" alt=""/>
+                    <img src="/images/woman/shopby4.jpg" alt=""/>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607221511_976.jpg.webp" alt=""/>
+                    <img src="/images/woman/shopby5.jpg" alt=""/>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607221502_358.jpg.webp" alt=""/>
+                    <img src="/images/woman/shopby6.jpg" alt=""/>
 
                 </div>
             </div>
             <div className="flex justify-center items-center container mx-auto gap-5 px-8 mt-4 ">
                 <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607055114_617.jpg.webp" alt=""/>
+                    <img src="/images/woman/section3.jpg" alt=""/>
                 </div>
-                <div className="hover:opacity-75">
-                    <img src="https://imgaz1.chiccdn.com/os/202106/20210607055130_880.jpg.webp" alt=""/>
+                <div>
+                    <div className="flex gap-5">
+                        <div className="hover:opacity-75">
+                            <img src="/images/woman/section3-1.jpg" alt=""/>
+                        </div>
+                        <div className="hover:opacity-75">
+                            <img src="/images/woman/section3-2.jpg" alt=""/>
+                        </div>
+
+                    </div>
+                    <div className="flex gap-5 mt-5">
+                        <div className="hover:opacity-75">
+                            <img src="/images/woman/section3-3.jpg" alt=""/>
+                        </div>
+                        <div className="hover:opacity-75">
+                            <img src="/images/woman/section3-4.jpg" alt=""/>
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
         </div>
 

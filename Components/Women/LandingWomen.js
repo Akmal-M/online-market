@@ -6,15 +6,11 @@ import ShopByDealsWoman from "./ShopByDealsWoman";
 const LandingWoman = () => {
     return (
         <div>
-            <Link href='/woman'>
-                <a>
-                    <p>WOMAN</p>
-                </a>
-            </Link>
+
             <Link href='/about'>
                 <a>
                     <img className="w-full"
-                         src="./images/woman/womenmain.jpg"
+                         src="/images/woman/womanmain.jpg"
                          alt=""/>
                 </a>
             </Link>

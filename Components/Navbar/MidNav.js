@@ -10,17 +10,19 @@ const MidNav = () => {
     return (
         <div className=' bg-gray-50 items-center h-20 flex justify-between px-20'>
             <div className='flex '>
-                <div className='mx-5'>
+                <div>
                     <Link href='/women'>
                         <a>
-                            <p className="hover:font-bold">{t('ЖЕНЩИНАМ')}</p>
+                            <button
+                                className="outline-none hover:bg-white delay-100 text-gray-700 h-20 px-2 font-bold">{t('ЖЕНЩИНАМ')}</button>
                         </a>
                     </Link>
                 </div>
-                <div className='mx-5'>
+                <div>
                     <Link href='/'>
                         <a>
-                            <p>{t('МУЖЧИНАМ')}</p>
+                            <button
+                                className="outline-none hover:bg-white delay-100 text-gray-700 h-20 px-2 font-bold">{t('МУЖЧИНАМ')}</button>
                         </a>
                     </Link>
                 </div>
