@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const NewComponent = () => {
     return (
@@ -7,27 +8,50 @@ const NewComponent = () => {
 
             <div className="flex justify-center items-center container mx-auto grid grid-cols-6 gap-5 px-8 mt-4 ">
                 <div className="hover:opacity-75">
-                    <img src="/images/mens/shopby-1.jpg" alt=""/>
+                    <Link href='/CategoryProduct'>
+                        <a>
+                            <img src="/images/mens/shopby-1.jpg" alt=""/>
+                        </a>
+                    </Link>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="/images/mens/shopby-2.jpg" alt=""/>
+                    <Link href='/CategoryProduct'>
+                        <a>
+                            <img src="/images/mens/shopby-2.jpg" alt=""/>
+                        </a>
+                    </Link>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="/images/mens/shopby-3.jpg" alt=""/>
+                    <Link href='/CategoryProduct'>
+                        <a>
+                            <img src="/images/mens/shopby-3.jpg" alt=""/>
+                        </a>
+                    </Link>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="/images/mens/shopby-4.jpg" alt=""/>
+                    <Link href='/CategoryProduct'>
+                        <a>
+                            <img src="/images/mens/shopby-4.jpg" alt=""/>
+                        </a>
+                    </Link>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="/images/mens/shopby-5.jpg" alt=""/>
+                    <Link href='/CategoryProduct'>
+                        <a>
+                            <img src="/images/mens/shopby-5.jpg" alt=""/>
+                        </a>
+                    </Link>
 
                 </div>
                 <div className="hover:opacity-75">
-                    <img src="/images/mens/shopby-6.jpg" alt=""/>
+                    <Link href='/CategoryProduct'>
+                        <a>
+                            <img src="/images/mens/shopby-6.jpg" alt=""/> </a>
+                    </Link>
 
                 </div>
             </div>

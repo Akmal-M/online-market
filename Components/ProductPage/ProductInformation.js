@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FaStar} from "react-icons/fa";
 import {AiOutlineArrowRight} from "react-icons/ai";
 import {TiFlash} from "react-icons/ti";
@@ -8,6 +8,9 @@ import {RiTruckLine} from "react-icons/ri";
 import {BsClockHistory} from "react-icons/bs";
 
 const ProductInformation = () => {
+    const [color, setColor] = useState()
+    const [size, setSize] = useState()
+    console.log(size)
     return (
         <div className="w-full">
             <p className="text-sm font-bold">Mens Cotton Solid Baggy Elastic Waist Casual Wide Leg Pants</p>
@@ -46,10 +49,10 @@ const ProductInformation = () => {
             </div>
             <p className="my-4 font-bold">COLOR</p>
             <div className="flex gap-2">
-                <img src="/images/mens/product-9.jpg" className="w-8 border" alt=""/>
-                <img src="/images/mens/product-9.jpg" className="w-8 border" alt=""/>
-                <img src="/images/mens/product-9.jpg" className="w-8 border" alt=""/>
-                <img src="/images/mens/product-9.jpg" className="w-8 border" alt=""/>
+                <img src="/images/mens/product-9.jpg" className="w-8 border" alt="" onClick={() => setColor('red')}/>
+                <img src="/images/mens/product-9.jpg" className="w-8 border" alt="" onClick={() => setColor('blue')}/>
+                <img src="/images/mens/product-9.jpg" className="w-8 border" alt="" onClick={() => setColor('yellow')}/>
+                <img src="/images/mens/product-9.jpg" className="w-8 border" alt="" onClick={() => setColor('green')}/>
             </div>
             <div className="flex mt-4 items-center gap-2">
                 <p className="my-4 font-bold">Size</p>
@@ -65,12 +68,12 @@ const ProductInformation = () => {
                 </select>
             </div>
             <div className="flex gap-2">
-                <div className="w-14 h-6 text-xs border p-1">CA 34</div>
-                <div className="w-14 h-6 text-xs border p-1">CA 36</div>
-                <div className="w-14 h-6 text-xs border p-1">CA 38</div>
-                <div className="w-14 h-6 text-xs border p-1">CA 40</div>
-                <div className="w-14 h-6 text-xs border p-1">CA 42</div>
-                <div className="w-14 h-6 text-xs border p-1">CA 44</div>
+                <div className="w-14 h-6 text-xs border p-1" onClick={() => setSize('34')}>CA 34</div>
+                <div className="w-14 h-6 text-xs border p-1" onClick={() => setSize('36')}>CA 36</div>
+                <div className="w-14 h-6 text-xs border p-1" onClick={() => setSize('38')}>CA 38</div>
+                <div className="w-14 h-6 text-xs border p-1" onClick={() => setSize('40')}>CA 40</div>
+                <div className="w-14 h-6 text-xs border p-1" onClick={() => setSize('42')}>CA 42</div>
+                <div className="w-14 h-6 text-xs border p-1" onClick={() => setSize('44')}>CA 44</div>
             </div>
             <div className="flex gap-3 my-4">
                 <button className="flex justify-center items-center bg-gray-800 text-white py-3 px-12 font-bold gap-2">
