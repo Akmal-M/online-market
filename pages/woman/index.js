@@ -5,18 +5,16 @@ import Footer from "../../Components/Footer/Footer";
 import LandingWomen from "../../Components/Women/LandingWomen";
 import Navbar from "../../Components/Navbar/Navbar";
 
-const Women = () => {
+const Woman = () => {
     return (
-        <div>
-            <Navbar/>
+        <div className="container mx-auto">
             <LandingWomen/>
             <ProductMain/>
             <Main/>
-            <Footer/>
         </div>
 
 
     );
 };
 
-export default Women;
+export default Woman;

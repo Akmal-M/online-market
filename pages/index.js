@@ -7,12 +7,11 @@ import React from "react";
 
 export default function Home() {
     return (
-        <div>
-            <Navbar/>
+        <div className="container mx-auto">
+
             <LandingMen/>
             <ProductMain/>
             <Main/>
-            <Footer/>
         </div>
 
     )
