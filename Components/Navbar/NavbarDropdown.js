@@ -14,7 +14,7 @@ const NavbarDropdown = () => {
 
     const [dropdown, setDropdown] = useState('')
 
-    console.log(dropdown)
+
     return (
         <div className='flex justify-between items-center py-3 inline-block relative'>
             <div className='flex items-center px-20 dropdown'>

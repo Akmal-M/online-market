@@ -3,8 +3,6 @@ import React from 'react';
 const One = () => {
     return (
         <div className="flex justify-center mt-6 bg-white container mx-auto">
-
-
             <div className="px-10">
                 <p className="font-bold">ЧТО НОВОГО</p>
                 <div className="text-sm text-gray-500">
