@@ -6,7 +6,9 @@ import Product from "../../Components/ProductPage/Product";
 const Index = () => {
     return (
         <div>
+            <Navbar/>
             <Product/>
+            <Footer/>
         </div>
     );
 };

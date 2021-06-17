@@ -5,16 +5,9 @@ import ProductInformation from "./ProductInformation";
 const Product = () => {
     return (
         <div>
-            <div className="grid grid-cols-11  container mx-auto mt-10">
-                <div className="col-span-5">
-                    <div className=" ">
-
-                        <ImgZoom/>
-                    </div>
-                </div>
-                <div className="col-span-6">
-                    <ProductInformation/>
-                </div>
+            <div className="flex container mx-auto px-8 my-6 gap-20">
+                <ImgZoom/>
+                <ProductInformation/>
             </div>
         </div>
     );

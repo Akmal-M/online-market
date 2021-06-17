@@ -6,8 +6,9 @@ import Footer from "../../Components/Footer/Footer";
 const Index = () => {
     return (
         <div>
-
+            {/*<Navbar/>*/}
             <CategoryProduct/>
+            <Footer/>
         </div>
     );
 };
