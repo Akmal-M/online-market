@@ -12,7 +12,7 @@ const ProductInformation = () => {
     const [size, setSize] = useState()
     console.log(size)
     return (
-        <div className="w-full">
+        <div className="">
             <p className="text-sm font-bold">Mens Cotton Solid Baggy Elastic Waist Casual Wide Leg Pants</p>
             <div className="flex gap-5 items-center">
                 <p>SKUA41526</p>
