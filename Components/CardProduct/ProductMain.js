@@ -23,7 +23,7 @@ const ProductMain = () => {
                     img={<img
                         src="/images/mens/product-3.jpg"
                         alt=""/>}
-                    info={'Мужские свободные рубашки в'}
+                    info={'Мужские свободные рубашки '}
                     price={'US$24.99'}/>
                 <ProductCard
                     img={<img
@@ -117,7 +117,6 @@ const ProductMain = () => {
                         alt=""/>}
                     info={'Рубашки с однотонным принтом '}
                     price={'US$21.99'}/>
-
             </div>
         </div>
     );

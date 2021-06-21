@@ -8,11 +8,9 @@ import Navbar from "../../Components/Navbar/Navbar";
 const Women = () => {
     return (
         <div>
-            <Navbar/>
             <LandingWomen/>
             <ProductMain/>
             <Main/>
-            <Footer/>
         </div>
 
 

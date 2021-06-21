@@ -52,7 +52,7 @@ const MidNav = () => {
                 <div className='flex text-3xl items-center inline-block relative'>
                     <div className="dropdown flex gap-5 items-center">
                         <div className="flex items-center cursor-pointer " onMouseOver={() => setDropdown('flag')}>
-                            <Link href='/'>
+                            <Link href='/login'>
                                 <a className="border-transparent delay-100 py-2">
                                     <BsPerson/>
                                 </a>

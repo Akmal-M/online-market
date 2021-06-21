@@ -21,7 +21,7 @@ const Register = () => {
         setUserData({...userData, [name]:value})
         // dispatch({ type: 'NOTIFY', payload: {} })
     }
-    console.log(initialState)
+    console.log(userData)
 
     const handleSubmit = () => {
 
@@ -70,10 +70,10 @@ const Register = () => {
                         <FaInstagram size={20}/>Google
                     </div>
                 </div>
-                <p className="w-80 mt-3">подписываясь таким образом, вы соглашаетесь с нашими Условия
-                    пользования и
-                    Политика
-                    конфиденциальности</p>
+                <p className="mt-3 w-80 text-sm mt-6">
+                    Создавая свой аккаунт, вы соглашаетесь с нашими условиями и
+                    политикой
+                    конфиденциальности.</p>
 
             </form>
 

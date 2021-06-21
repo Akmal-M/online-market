@@ -17,7 +17,7 @@ const Login = () => {
 
     }
 
-    console.log(initialState)
+    console.log(userData)
 
     const handleChangeInput = e => {
         const {name, value} = e.target
@@ -38,10 +38,7 @@ const Login = () => {
                     <input type="password" name='password' value={password} onChange={handleChangeInput} placeholder="Придумайте надежный пароль"
                            className="border-b border-gray-700 outline-none p-1 w-72 mt-4"/>
                 </div>
-                <p className="mt-3 w-80 text-sm mt-6">
-                    Создавая свой аккаунт, вы соглашаетесь с нашими условиями и
-                    политикой
-                    конфиденциальности</p>
+
                 <p className="mt-2 text-sm">ПРЕДПОЧТЕНИЕ СТИЛЯ</p>
                 <div className="flex gap-4 mt-3">
                     <button className="w-36 bg-gray-100 p-1.5">женская мода</button>
