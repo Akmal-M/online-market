@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import {FcGoogle} from "react-icons/fc";
 import {ImFacebook2} from "react-icons/im";
 
@@ -14,10 +15,14 @@ const Heart = () => {
                                 <div>
                                     <p className="font-bold"> Welcome to Newchic</p>
                                     <p><span className="text-red-600">$3</span> OFF For New Users</p>
+                                    <Link href='/Login'>
+                                        <a>
+                                            <button className="mt-3 bg-gray-600 py-1.5 px-4 font-bold text-white">
+                                                Sign in / Register
+                                            </button>
+                                        </a>
+                                    </Link>
 
-                                    <button className="mt-3 bg-gray-600 py-1.5 px-4 font-bold text-white">
-                                        Sign in / Register
-                                    </button>
                                 </div>
                             </div>
                             <p className="text-center">Or sign in :</p>
