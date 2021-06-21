@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import SingUp from "../../Components/SingUp/SingUp";
+import SignUp from "../../Components/SignUp/SignUp";
 
 
 const Index = () => {
     return (
         <div>
             <Navbar/>
-            <SingUp/>
+            <SignUp/>
             <Footer/>
         </div>
     );
