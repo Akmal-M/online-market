@@ -22,12 +22,12 @@ const LandingMen = () => {
                             <p className="text-2xl font-bold">$6 OFF</p>
                             <p className="text-sm">ORDER OVER $60</p>
                         </div>
-                        <div className="h-12 bg-gray-800 w-px"></div>
+                        <div className="h-12 bg-gray-800 w-px"> </div>
                         <div>
                             <p className="text-2xl font-bold">$20 OFF</p>
                             <p className="text-sm">ORDER OVER $120</p>
                         </div>
-                        <div className="h-12 bg-gray-800 w-px"></div>
+                        <div className="h-12 bg-gray-800 w-px"> </div>
                         <div>
                             <p className="text-2xl font-bold">$30 OFF</p>
                             <p className="text-sm">ORDER OVER $150</p>

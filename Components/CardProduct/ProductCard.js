@@ -6,7 +6,7 @@ const ProductCard = ({img, info, price}) => {
     return (
         <div>
             <div className="mb-3">
-                <Link href='/productPage'>
+                <Link href='/productpage'>
                     <a>
                         <div className="card-header relative">{img}
                             <div

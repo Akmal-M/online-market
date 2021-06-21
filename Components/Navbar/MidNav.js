@@ -43,7 +43,11 @@ const MidNav = () => {
                     </div>
                 </div>
                 <div className='text-red-500 text-4xl'>
-                    <span className='text-black '>New</span>market
+                    <Link href='/'>
+                        <a>
+                            <span className='text-black '>New</span>market
+                        </a>
+                    </Link>
                 </div>
                 <div className='flex text-3xl items-center inline-block relative'>
                     <div className="dropdown flex gap-5 items-center">
