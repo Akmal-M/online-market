@@ -1,7 +1,6 @@
 import React from 'react';
 import ImgZoom from "./ImgZoom";
 import ProductInformation from "./ProductInformation";
-
 const Product = () => {
     return (
         <div>
@@ -11,10 +10,9 @@ const Product = () => {
                 </div>
                 <div className="col-span-6">
                     <ProductInformation/>
-                </div>
+                </div>w
             </div>
         </div>
     );
 };
-
 export default Product;
