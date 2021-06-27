@@ -7,12 +7,13 @@ const ShopByDeals = () => {
         <div>
             <p className="text-center font-bold text-2xl mt-4 mb-2">Быстрые сделки</p>
             <div className="container mx-auto p-8 opacity-90">
-                <div className="grid grid-cols-5 gap-3">
+                <div className="flex flex-wrap gap-3 justify-between ">
 
+                    <div className="w-52">
+                        <img src="/images/mens/skidka.jpg" alt=""/>
+                    </div>
 
-                    <img src="/images/mens/skidka.jpg" alt=""/>
-
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/mens/byshop-2.jpg" alt=""/>
@@ -34,7 +35,7 @@ const ShopByDeals = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/mens/byshop-1.jpg" alt=""/>
@@ -56,7 +57,7 @@ const ShopByDeals = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/mens/byshop-3.jpg" alt=""/>
@@ -79,7 +80,7 @@ const ShopByDeals = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/mens/byshop-4.jpg" alt=""/>
@@ -103,12 +104,14 @@ const ShopByDeals = () => {
                     </div>
                 </div>
 
-                <Link href='./about'>
-                    <a>
-                        <img className="mt-12" src="/images/mens/skidka-2.jpg"
-                             alt=""/>
-                    </a>
-                </Link>
+                <div className="sm:w-full">
+                    <Link href='./about'>
+                        <a>
+                            <img className="mt-12" src="/images/mens/skidka-2.jpg"
+                                 alt=""/>
+                        </a>
+                    </Link>
+                </div>
             </div>
             <p className="text-center font-bold text-2xl mt-2">Популярные бренды</p>
             <div className="container mx-auto p-8 opacity-90">
@@ -123,10 +126,12 @@ const ShopByDeals = () => {
                     </Link>
                 </div>
 
-                <div className="flex h-72 gap-10 -mt-80 pl-96 absolute">
-                    <img className="ml-56" src="/images/mens/flex-2.jpg"
+                <div className="flex  lg:h-72 gap-3 lg:gap-10 lg:-mt-80 -mt-24 lg:pl-96 pl-40 absolute">
+                    <img className="lg:ml-56 lg:w-64 w-16" src="/images/mens/flex-2.jpg"
                          alt=""/>
-                    <img src="/images/mens/flex-3.jpg" alt=""/>
+
+                    <img className="  lg:w-64 w-16" src="/images/mens/flex-3.jpg" alt=""/>
+
                 </div>
 
             </div>

@@ -4,13 +4,12 @@ import {FaTelegramPlane, FaYoutube} from "react-icons/fa";
 import {GrFacebookOption} from "react-icons/gr";
 import {IoLogoTwitter} from "react-icons/io";
 import {SiPinterest, SiTiktok} from "react-icons/si";
-import {CgMail} from "react-icons/cg";
 
 const FooterLinks = () => {
     return (
         <div>
-            <div className="container flex mx-auto">
-                <div className="flex">
+            <div className="container grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-24 mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-3">
                     <div className="px-5 ">
                         <p className="font-bold">ИНФОРМАЦИЯ О КОМПАНИИ</p>
                         <div className="text-sm text-gray-500">
@@ -58,7 +57,7 @@ const FooterLinks = () => {
                         </div>
                     </div>
                 </div>
-                <div className="ml-20">
+                <div>
                     <div className="flex">
                         <div>
                             <input className="outline-none p-2 w-80	text-sm"
@@ -92,7 +91,6 @@ const FooterLinks = () => {
                         </p>
                     </div>
                 </div>
-
             </div>
             <div className="flex gap-2 mt-10 justify-center">
                 <img src="https://static.chiccdn.com/web/assets/images/footer/paypal-1.png" alt=""/>

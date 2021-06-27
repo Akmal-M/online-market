@@ -6,7 +6,7 @@ const ProductMain = () => {
         <div>
             <p className="text-2xl flex items-center justify-center font-bold mt-6 mb-4">Рекомендуем для вас</p>
 
-            <div className='gap-5 flex flex-wrap container mx-auto'>
+            <div className='gap-5 grid grid-cols-1 lg:grid-cols-5 sm:px-8 container mx-auto'>
                 <ProductCard
                     img={<img
                         src="/images/mens/product-1.jpg"

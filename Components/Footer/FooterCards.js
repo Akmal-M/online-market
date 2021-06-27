@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="">
             <div className="bg-white container mx-auto">
-                <div className="grid grid-cols-4">
+                <div className="grid grid-cols-1 lg:grid-cols-4 ">
                     <div>
                         <FooterCard
                             icon={<div><HiShoppingBag size={35}/></div>}

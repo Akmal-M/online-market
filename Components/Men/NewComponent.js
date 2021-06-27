@@ -6,7 +6,8 @@ const NewComponent = () => {
         <div>
             <p className="text-2xl text-center font-bold mt-10">Новинки</p>
 
-            <div className="flex justify-center items-center container mx-auto grid grid-cols-6 gap-5 px-8 mt-4 ">
+            <div
+                className="flex flex-wrap justify-center items-center container mx-auto grid grid-cols-6 gap-5 px-8 mt-4 ">
                 <div className="hover:opacity-75">
                     <Link href='/CategoryProduct'>
                         <a>
