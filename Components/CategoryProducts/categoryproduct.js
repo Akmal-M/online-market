@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import ProductMain from "../CardProduct/ProductMain";
 
-const CategoryProduct = () => {
+const Categoryproduct = () => {
     const [category, setCategory] = useState('')
     const [color, setColor] = useState('')
     const [size, setSize] = useState('')
@@ -140,4 +140,4 @@ const CategoryProduct = () => {
     );
 };
 
-export default CategoryProduct;
+export default Categoryproduct;
