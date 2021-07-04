@@ -138,9 +138,4 @@ const Categoryproduct = () => {
         </div>
     );
 };
-<<<<<<< HEAD:Components/CategoryProducts/CategoryProduct.js
 export default CategoryProduct;
-=======
-
-export default Categoryproduct;
->>>>>>> dcb093b5933e0a5f4d2c8dcadf34a51f042631fd:Components/CategoryProducts/categoryproduct.js
