@@ -5,7 +5,8 @@ const NewComponentWoman = () => {
         <div>
             <p className="text-2xl text-center font-bold mt-10">Новинки</p>
 
-            <div className="flex justify-center items-center container mx-auto grid grid-cols-6 gap-5 px-8 mt-4 ">
+            <div
+                className="justify-center items-center container mx-auto grid grid-cols-1 lg:grid-cols-6 gap-5 px-8 mt-4 ">
                 <div className="hover:opacity-75">
                     <img src="/images/woman/shopby1.jpg" alt=""/>
 
@@ -31,7 +32,8 @@ const NewComponentWoman = () => {
 
                 </div>
             </div>
-            <div className="flex justify-center items-center container mx-auto gap-5 px-8 mt-4 ">
+            <div
+                className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center container mx-auto gap-5 px-8 mt-4 ">
                 <div className="hover:opacity-75">
                     <img src="/images/woman/section3.jpg" alt=""/>
                 </div>

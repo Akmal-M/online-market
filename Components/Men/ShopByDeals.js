@@ -1,13 +1,13 @@
 import React from 'react';
 import Link from 'next/link'
-import {BsFillLightningFill, BsPlus} from "react-icons/bs";
+import {BsPlus} from "react-icons/bs";
 
 const ShopByDeals = () => {
     return (
         <div>
             <p className="text-center font-bold text-2xl mt-4 mb-2">Быстрые сделки</p>
             <div className="container mx-auto p-8 opacity-90">
-                <div className="flex flex-wrap gap-3 justify-between ">
+                <div className="flex flex-wrap  gap-3 justify-center ">
 
                     <div className="w-52">
                         <img src="/images/mens/skidka.jpg" alt=""/>
@@ -126,7 +126,7 @@ const ShopByDeals = () => {
                     </Link>
                 </div>
 
-                <div className="flex  lg:h-72 gap-3 lg:gap-10 lg:-mt-80 -mt-24 lg:pl-96 pl-40 absolute">
+                <div className="flex lg:h-72 gap-3 lg:gap-10 lg:-mt-80 -mt-24 lg:pl-96 pl-40 absolute">
                     <img className="lg:ml-56 lg:w-64 w-16" src="/images/mens/flex-2.jpg"
                          alt=""/>
 

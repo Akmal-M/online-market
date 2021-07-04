@@ -5,7 +5,7 @@ import NavbarDropdown from "./NavbarDropdown";
 
 const Navbar = () => {
     return (
-        <div className="z-10">
+        <div className="z-50">
             <Discount/>
             <MidNav/>
             <NavbarDropdown/>

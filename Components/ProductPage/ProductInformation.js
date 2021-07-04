@@ -12,7 +12,7 @@ const ProductInformation = () => {
     const [size, setSize] = useState()
     console.log(size)
     return (
-        <div className="">
+        <div className="px-5">
             <p className="text-sm font-bold">Mens Cotton Solid Baggy Elastic Waist Casual Wide Leg Pants</p>
             <div className="flex gap-5 items-center">
                 <p>SKUA41526</p>
@@ -29,11 +29,11 @@ const ProductInformation = () => {
                 <div className="flex items-center gap-2">
                     <p className="text-red-500 text-3xl font-bold">US$ 26.99</p>
                     <del>US$30.99</del>
-                    <p className="bg-red-200 opacity-75">- 13%</p>
+                    <p className="bg-red-200 opacity-75 z-10">- 13%</p>
                 </div>
 
-                <div className="ml-3">
-                    <div className="flex gap-2 mt-2 ml-3">
+                <div className="ml-3 ">
+                    <div className="flex flex-wrap gap-2 mt-2 ml-3">
                         <img src="/images/mens/Screenshot_1.png" alt=""/>
                         <p>New user US$22.94 by coupon</p>
                         <p className="hover:text-red-500 flex items-center gap-2 cursor-pointer">Get

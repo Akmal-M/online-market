@@ -92,7 +92,7 @@ const FooterLinks = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-2 mt-10 justify-center">
+            <div className="flex flex-wrap gap-2 mt-10 justify-center">
                 <img src="https://static.chiccdn.com/web/assets/images/footer/paypal-1.png" alt=""/>
                 <img src="https://static.chiccdn.com/web/assets/images/footer/visa-a.png" alt=""/>
                 <img src="https://static.chiccdn.com/web/assets/images/footer/mastercard-1.png" alt=""/>

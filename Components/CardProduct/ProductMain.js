@@ -6,7 +6,7 @@ const ProductMain = () => {
         <div>
             <p className="text-2xl flex items-center justify-center font-bold mt-6 mb-4">Рекомендуем для вас</p>
 
-            <div className='gap-5 grid grid-cols-1 lg:grid-cols-5 sm:px-8 container mx-auto'>
+            <div className='gap-5 flex justify-center flex-wrap container mx-auto'>
                 <ProductCard
                     img={<img
                         src="/images/mens/product-1.jpg"
@@ -64,6 +64,12 @@ const ProductMain = () => {
                     price={'US$24.99'}/>
                 <ProductCard
                     img={<img
+                        src="/images/mens/product-1.jpg"
+                        alt=""/>}
+                    info={'Полоса Повседневная Хлопок'}
+                    price={'US$17.99'}/>
+                <ProductCard
+                    img={<img
                         src="/images/mens/product-19.jpg"
                         alt=""/>}
                     info={'Рубашки Хенли в полоску'}
@@ -105,18 +111,26 @@ const ProductMain = () => {
                         alt=""/>}
                     info={'Рубашки Хенли в полоску'}
                     price={'US$24.99'}/>
-                <ProductCard
-                    img={<img
-                        src="/images/mens/product-17.jpg"
-                        alt=""/>}
-                    info={'Рубашки с однотонным принтом'}
-                    price={'US$21.99'}/>
+
+
                 <ProductCard
                     img={<img
                         src="/images/mens/product-18.jpg"
                         alt=""/>}
                     info={'Рубашки с однотонным принтом '}
                     price={'US$21.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/mens/product-12.jpg"
+                        alt=""/>}
+                    info={'Рубашки с однотонным принтом '}
+                    price={'US$21.99'}/>
+                <ProductCard
+                    img={<img
+                        src="/images/mens/product-8.jpg"
+                        alt=""/>}
+                    info={'Полосатый принт Белый Henley'}
+                    price={'US$19.99'}/>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import {AiOutlineTwitter, AiOutlineYoutube} from "react-icons/ai";
 import {FaPinterestP} from "react-icons/fa";
 import {SiTiktok} from "react-icons/si";
 import data from "../../Data";
+
 const ImgZoom = () => {
     const [tab, setTab] = useState(0)
     const isActive = (index) => {
@@ -15,8 +16,8 @@ const ImgZoom = () => {
             <div className="flex">
                 {
                     data.map(product => (
-                        <div className="flex">
-                            <div className="cursor-pointer">
+                        <div className="lg:flex">
+                            <div className="cursor-pointer flex lg:block">
                                 {product.images.map((img, index) => (
                                     <img key={index} src={img.url} alt={img.url}
                                          className={`img-thumbnail, rounded ${isActive(index)}` + "object-cover object-fit"}

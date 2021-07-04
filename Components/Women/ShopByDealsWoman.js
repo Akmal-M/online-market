@@ -8,12 +8,12 @@ const ShopByDealsWoman = () => {
 
             <p className="text-center font-bold text-2xl mt-4 mb-2">Быстрые сделки</p>
             <div className="container mx-auto opacity-90 mt-4">
-                <div className="flex gap-3">
+                <div className="flex flex-wrap gap-5 justify-center">
 
 
-                    <img src="/images/woman/skidka.jpg" alt=""/>
+                    <img className="w-52" src="/images/woman/skidka.jpg" alt=""/>
 
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/woman/byshop-1.jpg" alt=""/>
@@ -35,7 +35,7 @@ const ShopByDealsWoman = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/woman/byshop-2.jpg" alt=""/>
@@ -57,7 +57,7 @@ const ShopByDealsWoman = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/woman/byshop-3.jpg" alt=""/>
@@ -80,7 +80,7 @@ const ShopByDealsWoman = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100">
+                    <div className="bg-gray-100 w-52">
                         <Link href='/productPage'>
                             <a>
                                 <div className="card-header relative"><img src="/images/woman/byshop-4.jpg" alt=""/>
@@ -102,6 +102,7 @@ const ShopByDealsWoman = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <Link href='./about'>
@@ -120,16 +121,21 @@ const ShopByDealsWoman = () => {
                                  alt=""/>
                         </a>
 
+
                     </Link>
                 </div>
 
-                <div className="flex h-72 gap-10 -mt-80 pl-96 absolute">
-                    <img className="ml-56" src="/images/woman/three-1.jpg"
+                <div className="flex lg:h-72 gap-3 lg:gap-10 lg:-mt-80 -mt-24 lg:pl-96 pl-40 absolute">
+                    <img className="lg:ml-56 lg:w-64 w-16" src="/images/woman/three-1.jpg"
                          alt=""/>
-                    <img src="/images/woman/three-2.jpg" alt=""/>
+
+                    <img className="  lg:w-64 w-16" src="/images/woman/three-2.jpg" alt=""/>
+
                 </div>
 
             </div>
+
+
             <div className="flex container mx-auto px-8">
                 <img className="w-3/6 hover:opacity-75"
                      src="/images/woman/twoflex.jpg"

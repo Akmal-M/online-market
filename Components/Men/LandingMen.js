@@ -9,7 +9,7 @@ const LandingMen = () => {
 
             <Link href='/about'>
                 <a>
-                    <img className=""
+                    <img className="w-full"
                          src="/images/mens/haader.jpg"
                          alt=""/>
                 </a>

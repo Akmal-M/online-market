@@ -6,7 +6,7 @@ const ProductMain = () => {
         <div>
             <p className="text-2xl flex items-center justify-center font-bold mt-6 mb-4">Рекомендуем для вас</p>
 
-            <div className='gap-5 flex container mx-auto'>
+            <div className='gap-5 flex flex-wrap justify-center container mx-auto'>
                 <ProductCard
                     img={<img
                         src="/images/woman/product1.jpg"
@@ -44,9 +44,12 @@ const ProductMain = () => {
                     info={'Рубашки с однотонным принтом '}
                     price={'US$21.99'}/>
 
-
-            </div>
-            <div className='gap-5 flex container mx-auto mt-3'>
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product2.jpg"
+                        alt=""/>}
+                    info={'Полосатый принт Белый Henley'}
+                    price={'US$19.99'}/>
                 <ProductCard
                     img={<img
                         src="/images/woman/product-7.jpg"
@@ -85,8 +88,6 @@ const ProductMain = () => {
                     price={'US$21.99'}/>
 
 
-            </div>
-            <div className='gap-5 flex container mx-auto mt-3'>
                 <ProductCard
                     img={<img
                         src="/images/woman/product-13.jpg"
@@ -123,7 +124,12 @@ const ProductMain = () => {
                         alt=""/>}
                     info={'Рубашки с однотонным принтом '}
                     price={'US$21.99'}/>
-
+                <ProductCard
+                    img={<img
+                        src="/images/woman/product-8.jpg"
+                        alt=""/>}
+                    info={'Полосатый принт Белый Henley'}
+                    price={'US$19.99'}/>
 
             </div>
         </div>

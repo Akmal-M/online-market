@@ -16,6 +16,7 @@ const Footer = () => {
                             info={'Купить качественные товары с низкой ценой'}/>
                     </div>
                     <div>
+                     
                         <FooterCard
                             icon={<div><Ri24HoursLine size={35}/></div>}
                             name={'Круглосуточный сервис'}
@@ -27,6 +28,7 @@ const Footer = () => {
                             name={'Экспресс-доставка'}
                             info={'Множественный выбор быстрой и надежной доставки'}/>
                     </div>
+
                     <div>
                         <FooterCard
                             icon={<div><AiOutlineCreditCard size={35}/></div>}
