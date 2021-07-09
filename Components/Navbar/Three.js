@@ -2,7 +2,7 @@ import React from 'react';
 
 const Three = () => {
     return (
-        <div className="flex justify-center mt-6 bg-white container mx-auto">
+        <div className="flex flex-wrap justify-center mt-6 bg-white container mx-auto">
             <div className="px-5 ">
 
                 <p className="font-bold">

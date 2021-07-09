@@ -16,8 +16,8 @@ const NavbarDropdown = () => {
 
 
     return (
-        <div className='flex justify-between items-center py-3 inline-block relative'>
-            <div className='flex items-center px-20 dropdown'>
+        <div className='lg:flex  justify-between text-center items-center py-3 px-5 inline-block relative'>
+            <div className='flex flex-wrap  items-center lg:px-20  dropdown'>
                 <div className="flex items-center cursor-pointer " onMouseOver={() => setDropdown('one')}>
                     <Link href='/'>
                         <a className="hover:border-gray-500 border-transparent border-b-2 delay-100 py-2">Новинки</a>

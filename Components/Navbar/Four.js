@@ -2,7 +2,7 @@ import React from 'react';
 
 const Four = () => {
     return (
-        <div className="flex justify-center mt-6 bg-white container mx-auto py-4">
+        <div className="flex flex-wrap justify-center mt-6 bg-white container mx-auto py-4">
             <div className="px-5 ">
                 <p className="font-bold">
                     Квартиры

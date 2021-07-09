@@ -23,7 +23,7 @@ const MidNav = () => {
     const {t} = useTranslation();
     return (
         <div>
-            <div className=' bg-gray-50 items-center h-20 flex justify-between px-20'>
+            <div className=' bg-gray-50 items-center lg:h-20 lg:flex justify-between px-20'>
                 <div className='flex '>
                     <div>
                         <Link href='/woman'>

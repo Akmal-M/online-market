@@ -4,7 +4,7 @@ const Two = () => {
     return (
 
 
-        <div className="flex bg-white justify-center mt-6 container mx-auto py-5">
+        <div className="flex flex-wrap bg-white justify-center mt-6 container mx-auto py-5">
 
 
             <div className="px-5 ">

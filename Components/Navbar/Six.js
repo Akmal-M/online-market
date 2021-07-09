@@ -3,7 +3,7 @@ import React from 'react';
 const Six = () => {
     return (
         <div>
-            <div className="flex justify-center mt-6 bg-white container mx-auto py-4">
+            <div className="flex flex-wrap justify-center mt-6 bg-white container mx-auto py-4">
                 <div className="px-5 ">
                     <p className="font-bold">
                         Квартиры
