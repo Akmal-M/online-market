@@ -4,13 +4,6 @@ import Link from 'next/link'
 import {AiOutlineHeart} from "react-icons/ai";
 import {BiHeadphone, BiShoppingBag} from "react-icons/bi";
 import {BsPerson} from "react-icons/bs";
-import One from "./One";
-import Two from "./Two";
-import Three from "./Three";
-import Four from "./Four";
-import Five from "./Five";
-import Six from "./Six";
-import Seven from "./Seven";
 import Flag from "../FlagDropdown/Flag";
 import Heart from "../FlagDropdown/heart";
 import Bag from "../FlagDropdown/Bag";

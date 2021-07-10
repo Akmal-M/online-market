@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 import {BiSearch} from "react-icons/bi";
 import Link from 'next/link'
 import One from "./One";
@@ -16,7 +16,7 @@ const NavbarDropdown = () => {
 
 
     return (
-        <div className='lg:flex  justify-between text-center items-center py-3 px-5 inline-block relative'>
+        <div className='lg:flex  justify-between  items-center py-3 px-5 inline-block relative'>
             <div className='flex flex-wrap  items-center lg:px-20  dropdown'>
                 <div className="flex items-center cursor-pointer " onMouseOver={() => setDropdown('one')}>
                     <Link href='/'>
