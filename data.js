@@ -26,10 +26,7 @@ const data = [
                 "id": "6",
                 "url": "https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/A5/70/b435cecf-2d11-4f01-be6b-8d7f28e9af31.jpg.webp?s=240x320"
             },
-            {
-                "id": "7",
-                "url": "https://imgaz1.chiccdn.com/thumb/wap/oaupload/newchic/images/A5/70/b435cecf-2d11-4f01-be6b-8d7f28e9af31.jpg.webp?s=240x320"
-            },
+
 
 
 
